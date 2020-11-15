@@ -1,0 +1,10 @@
+<h1>Articles</h1>
+<!-- <button type="button" class="btn btn-outline-primary"(click)="connect()">CONNECT</button> -->
+
+<div class="rounded bg-light p-1" *ngFor="let article of articles">
+  <ul class="list-group" >
+    <li class="list-group-item">#{{article.id}}</li>
+    <li class="list-group-item">{{article.title}}</li>
+    <li class="list-group-item">{{article.body}}</li>
+  </ul>
+</div>
